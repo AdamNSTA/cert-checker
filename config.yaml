@@ -3,16 +3,15 @@ port: 8080
 webport: 8081
 intervalminutes: 1
 certificates:
-    - dns: twitter.com
-    - dns: google.com
-    - dns: example.com
-    - dns: expired.badssl.com
-    - dns: wrong.host.badssl.com
-    - dns: untrusted-root.badssl.com
-    - dns: self-signed.badssl.com
-    - dns: revoked.badssl.com
-    - dns: dh480.badssl.com
-    - dns: dh512.badssl.com
-    - dns: null.badssl.com
-    - dns: rc4-md5.badssl.com
-    - dns: rc4.badssl.com
+    - dns: remote.agventuresllc.net
+    - dns: remote.cocalicobiologicals.com
+    - dns: ctx.grapekbates.com
+    - dns: ctx.landtransferco.com
+    - dns: aa.lh-inc.com
+    - dns: cw.nsta.io
+    - dns: screen.nsta.io
+    - dns: remote.snavelysmill.com
+    - dns: aa.snavelysmill.com
+    - dns: remote.theoldcountrystore.com
+    - dns: aa.classicpl.com
+    - dns: pw.olmsted.cc

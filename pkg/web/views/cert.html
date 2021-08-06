@@ -1,16 +1,15 @@
 {{define "cert"}}
     <hr />
-    <h3><a class="header" href="https://{{ .DNS }}">{{ .DNS }}</a></h3>
+    <h3><a class="header" href="https://{{ .DNS }}">{{ .DNS }} - </a>
+    <span class='small {{ expireTimeToCSS .NotAfter }}'>Expires: {{ .NotAfter }}</span></h3>
     <li>
         <span class='small'>
         {{ if .Issuer }}
             {{ .Issuer }}
         {{else}}
             No valid issuer fould
-        {{end}}
+        {{end}},
         </span>
-
-        <span class='small {{ expireTimeToCSS .NotAfter }}'>Expires: {{ .NotAfter }},</span>
         <span class='small {{ tlsToCSS .MinimumTLSVersion }}'>{{ .MinimumTLSVersion }}</span>
 
         {{ if .Error }}

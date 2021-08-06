@@ -151,6 +151,9 @@ li {
 .small {
     font-size: 80%;
 }
+.large {
+    font-size: 180%;
+}
 .status {
     float: right;
 }
